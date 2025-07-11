@@ -186,3 +186,23 @@ main{
     margin: 5px auto;
 }
 
+/* Ready to focus better */
+
+.focus-better{
+    height: 695px;
+box-shadow: 0 6px 50px 0 rgba(0,0,0,0.06);;
+}
+
+.focus-title{
+    padding: 70px 310px 10px 310px;
+}
+
+.focus-description{
+    margin: 10px 325px 20px 325px;
+}
+
+.fosus-images{
+    width: 840px;
+    height: 365px;
+    margin: 20px 150px 70px 150px;
+}
