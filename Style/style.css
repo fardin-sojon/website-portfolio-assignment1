@@ -1,13 +1,4 @@
-* {
-    /* margin: 0; */
-    /* padding: 0; */
-    box-sizing: border-box;
-}
 
-html, body {
-    height: 100%;
-    width: 100%;
-}
 
 /* Font Share */
 .inter-normal {
@@ -23,7 +14,7 @@ html, body {
     "wdth" 100;
 }
 
-/* Style Share */
+/* Button Style */
 .btn-style{
     background-color: #4E47FF;
     color: white;
@@ -32,8 +23,16 @@ html, body {
     padding: 12px 36px;
     border-radius: 7px;
     border: none;
+    cursor: pointer;
+}
+.btn-style:hover {
+    /* display: block; */
+    /* filter: drop-shadow(0 0 10px #4E47FF); */
+    background-color: rgb(253, 3, 120);
 }
 
+
+/* Style Share */
 .text-center{
     text-align: center;
 }
@@ -103,6 +102,7 @@ nav{
 
 .action-description{
     font-size: 24px;
+    color: #B3B3B3;
 }
 
 .action-img{
@@ -117,7 +117,7 @@ main{
     margin: 0 auto;
 }
 
-/* Productive_User */
+/* Productive_Users */
 
 .productive-user{
     background-color: #4d47ff1a;
@@ -134,22 +134,21 @@ main{
 .productive-items{
     display: flex;
     justify-content: space-around;
+    margin-bottom: 100px;
 }
 
 .productive-item{
-    
+    align-items: center;
 }
 
 .productive-number{
     font-size: 80px;
     color: #4E47FF;
-    /* border: 2px solid; */
 }
 
 .productive-description{
     font-size: 20px;
-    /* border: 2px solid; */
-    margin-bottom: 200px;
+    color: #7c7a7a;
 }
 
 /* Users Say */
@@ -178,9 +177,12 @@ main{
 
 .user-titles{
     margin: 24px;
+    color: #1E1E1E;
 }
 
-
+.user-description{
+    color: #1E1E1E;
+}
 .reviewer-flex{
     display: flex;
     justify-content: center;
@@ -198,10 +200,12 @@ main{
 }
 .reviewer-name{
     margin: 0 auto;
+    color: #757575;
 }
 
 .reviewer-date{
     margin: 5px auto;
+    color: #B3B3B3;
 }
 
 /* Ready to focus better */
@@ -218,6 +222,7 @@ main{
 
 .focus-description{
     margin: 10px 325px 20px 325px;
+    color: #7c7a7a;
 }
 
 .fosus-images{
@@ -269,16 +274,13 @@ label{
 }
 
 /* Footer Style */
-footer {
-    margin: 0;
-}
 
 .footer-section{
     text-align: center;
     background-color: white;
     width: 100%;
-    height: 430px;
-    margin: 0;
+    height: 428px;
+    margin: 0 auto;
 }
 
 .footer-title{
@@ -288,12 +290,16 @@ footer {
     margin: 104px 575px 10px ;
 }
 .footer-description{
-
+    color: #8987A1;
 }
 .footer-items{
     display: flex;
     gap: 50px;
+    color: #8987A1;
     justify-content: center;
     list-style: none;
+}
+.position-footer{
+    border: 2px solid white;
 }
 
