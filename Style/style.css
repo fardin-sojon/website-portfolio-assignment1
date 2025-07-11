@@ -23,6 +23,10 @@
     border: none;
 }
 
+.text-center{
+    text-align: center;
+}
+
 .background-color{
     background-color: #4d47ff0c;
 }
@@ -71,11 +75,7 @@ nav{
 .action-container{
     display: flex;
     gap: 220px;
-    justify-content: space-around;
-    padding: 115px 160px;
-    max-width: 1140px;
-    height: 330px;
-    margin: 116px auto;
+    justify-content:space-between;
     align-items: center;
 }
 
@@ -84,7 +84,6 @@ nav{
     width: 520px;
     height: 200px;
 }
-
 .action-title{
     font-size: 40px;
     font-weight: 700;
@@ -99,3 +98,45 @@ nav{
     height: 330px;
     border-radius: 25px;
 }
+
+/* Main Style */
+main{
+    max-width: 1140px;
+    margin: 115px auto;
+}
+
+/* Productive_User */
+
+.productive-user{
+    background-color: #4d47ff1a;
+    height: 300px;
+    margin: 160px auto;
+    border-radius: 7px;
+    padding: 50px 142px;
+}
+
+.productive-title{
+    text-align: center;
+}
+
+.productive-items{
+    display: flex;
+    justify-content: space-around;
+}
+
+.productive-item{
+    
+}
+
+.productive-number{
+    font-size: 80px;
+    color: #4E47FF;
+    /* border: 2px solid; */
+}
+
+.productive-description{
+    font-size: 20px;
+    /* border: 2px solid; */
+    margin-bottom: 200px;
+}
+
