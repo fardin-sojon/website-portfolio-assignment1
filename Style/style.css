@@ -28,7 +28,7 @@
 }
 
 .background-color{
-    background-color: #4d47ff0c;
+    background-color: #4d47ff11;
 }
 
 /* Header Background */
@@ -36,7 +36,7 @@
 .header-bg{
     background-image: url("../Assets/Hero-bg.png");
     height: 700px;
-
+    width: 100%;
 }
 
 /* Nav Style */
@@ -77,6 +77,7 @@ nav{
     gap: 220px;
     justify-content:space-between;
     align-items: center;
+    margin: 115px auto;
 }
 
 .action-content{
@@ -102,7 +103,7 @@ nav{
 /* Main Style */
 main{
     max-width: 1140px;
-    margin: 115px auto;
+    margin: 0 auto;
 }
 
 /* Productive_User */
@@ -111,7 +112,7 @@ main{
     background-color: #4d47ff1a;
     height: 300px;
     margin: 160px auto;
-    border-radius: 7px;
+    border-radius: 20px;
     padding: 50px 142px;
 }
 
@@ -141,7 +142,12 @@ main{
 }
 
 /* Users Say */
-
+.users-say{
+    margin: 90px auto;
+}
+.user-say-title{
+    font-size: 40px;
+}
 .user-flex{
     display: flex;
     gap: 20px;
@@ -151,6 +157,7 @@ main{
     width: 365px;
     height: 265px;
     box-shadow: 0 6px 50px 0 rgba(0,0,0,0.06);
+    border-radius: 14px;
 }
 
 
@@ -190,7 +197,8 @@ main{
 
 .focus-better{
     height: 695px;
-box-shadow: 0 6px 50px 0 rgba(0,0,0,0.06);;
+    box-shadow: 0 6px 50px 0 rgba(0,0,0,0.08);
+    border-radius: 20px;
 }
 
 .focus-title{
@@ -205,4 +213,47 @@ box-shadow: 0 6px 50px 0 rgba(0,0,0,0.06);;
     width: 840px;
     height: 365px;
     margin: 20px 150px 70px 150px;
+    border-radius: 30px;
+}
+
+/* Form Section */
+
+.form-container{
+    display: flex;
+    gap: 70px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 90px auto;
+    max-width: 1140px;
+}
+.from-title{
+    font-size: 97px;
+    margin: ;
+}
+.form-box{
+    margin: 71px auto;
+    text-align: r;
+}
+label{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.form-box input{
+    height: 50px;
+    width: 100% ;
+    background-color: #FFFFFF;
+    border-radius: 7px;
+    border: none;
+    margin: 10px 0;
+}
+.form-box textarea{
+    width: 100%;
+    border-radius: 7px;
+    border: none;
+    margin: 10px 0;
+}
+
+.form-btn{
+    width: 100%;
 }
