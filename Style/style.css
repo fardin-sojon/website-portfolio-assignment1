@@ -1,3 +1,14 @@
+* {
+    /* margin: 0; */
+    /* padding: 0; */
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
 /* Font Share */
 .inter-normal {
   font-family: "Inter", sans-serif;
@@ -228,7 +239,6 @@ main{
 }
 .from-title{
     font-size: 97px;
-    margin: ;
 }
 .form-box{
     margin: 71px auto;
@@ -257,3 +267,33 @@ label{
 .form-btn{
     width: 100%;
 }
+
+/* Footer Style */
+footer {
+    margin: 0;
+}
+
+.footer-section{
+    text-align: center;
+    background-color: white;
+    width: 100%;
+    height: 430px;
+    margin: 0;
+}
+
+.footer-title{
+    color: #4E47FF;
+    font-size: 100px;
+    font-weight: 900;
+    margin: 104px 575px 10px ;
+}
+.footer-description{
+
+}
+.footer-items{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    list-style: none;
+}
+
