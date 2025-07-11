@@ -140,3 +140,49 @@ main{
     margin-bottom: 200px;
 }
 
+/* Users Say */
+
+.user-flex{
+    display: flex;
+    gap: 20px;
+    margin: 50px auto;
+}
+.user-container{
+    width: 365px;
+    height: 265px;
+    box-shadow: 0 6px 50px 0 rgba(0,0,0,0.06);
+}
+
+
+.star-img{
+    margin: 24px 225px 24px 24px;
+}
+
+.user-titles{
+    margin: 24px;
+}
+
+
+.reviewer-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cycle-pic{
+    border-radius: 20px;
+    margin: 24px 6px 30px 24px;
+}
+.reviewer-container{
+    width: 265px;
+    height: 45px;
+
+}
+.reviewer-name{
+    margin: 0 auto;
+}
+
+.reviewer-date{
+    margin: 5px auto;
+}
+
