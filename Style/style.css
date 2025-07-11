@@ -23,6 +23,10 @@
     border: none;
 }
 
+.background-color{
+    background-color: #4d47ff0c;
+}
+
 /* Header Background */
 
 .header-bg{
@@ -62,5 +66,36 @@ nav{
     margin: 37px auto;
 }
 
+/* Action Section */
 
+.action-container{
+    display: flex;
+    gap: 220px;
+    justify-content: space-around;
+    padding: 115px 160px;
+    max-width: 1140px;
+    height: 330px;
+    margin: 116px auto;
+    align-items: center;
+}
 
+.action-content{
+    padding: 62px 100px 62px 0px;
+    width: 520px;
+    height: 200px;
+}
+
+.action-title{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.action-description{
+    font-size: 24px;
+}
+
+.action-img{
+    width: 400px;
+    height: 330px;
+    border-radius: 25px;
+}
